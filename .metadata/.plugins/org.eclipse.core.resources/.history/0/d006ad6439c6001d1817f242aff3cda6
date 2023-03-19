@@ -1,0 +1,7 @@
+
+public abstract class Figura {
+	public abstract void Ruch();
+	public abstract void ZwrocPozycje();
+	public abstract void UstawPozycje();
+	public abstract void ZwrocKolor();
+}

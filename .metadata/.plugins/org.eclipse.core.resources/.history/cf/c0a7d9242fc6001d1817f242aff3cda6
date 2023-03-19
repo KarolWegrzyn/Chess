@@ -1,0 +1,22 @@
+
+public class Board {
+	 
+	public void Szachownica()
+	{
+		for(int i=0; i>8; i++) //dla A
+		{
+			Pole A = new Pole();
+		}
+	}
+	
+	public void UmiescFigury()
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		
+		
+	}
+}

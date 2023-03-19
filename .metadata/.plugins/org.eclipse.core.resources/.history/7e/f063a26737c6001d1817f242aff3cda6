@@ -1,0 +1,8 @@
+
+public class Pole {
+	boolean Zajente = false;
+	boolean Kolor = false; //false - czarne , true - biale
+	int X = 0;
+	int Y = 0;
+	
+}

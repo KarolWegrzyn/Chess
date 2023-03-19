@@ -1,0 +1,85 @@
+
+public class Board {
+	 
+	public void Szachownica()
+	{
+		Pole[] LiniaA = new Pole[8];
+		Pole[] LiniaB = new Pole[8];
+		Pole[] LiniaC = new Pole[8];
+		Pole[] LiniaD = new Pole[8];
+		Pole[] LiniaE = new Pole[8];
+		Pole[] LiniaF = new Pole[8];
+		Pole[] LiniaG = new Pole[8];
+		Pole[] LiniaH = new Pole[8];
+		
+		for(int i=0; i>8; i++) //dla A
+		{
+			LiniaA[i].X = 1;
+			LiniaA[i].Y = i + 1;
+			if(i%2==0)
+				LiniaA[i].Kolor = false; //czarny(false)
+			else
+				LiniaA[i].Kolor = true; //bialy(true)
+			
+			LiniaB[i].X = 2;
+			LiniaB[i].Y = i+1;
+			if(i%2==0)
+				LiniaB[i].Kolor = true; //bialy
+			else
+				LiniaB[i].Kolor = false; //czarny
+			
+			LiniaC[i].X = 3;
+			LiniaC[i].Y = i+1;
+			if(i%2==0)
+				LiniaC[i].Kolor = false; //czarny(false)
+			else
+				LiniaC[i].Kolor = true; //bialy(true)
+			
+			LiniaD[i].X = 4;
+			LiniaD[i].Y = i+1;
+			if(i%2==0)
+				LiniaD[i].Kolor = true; //bialy
+			else
+				LiniaD[i].Kolor = false; //czarny
+			
+			LiniaE[i].X = 5;
+			LiniaE[i].Y = i+1;
+			if(i%2==0)
+				LiniaE[i].Kolor = false; //czarny(false)
+			else
+				LiniaE[i].Kolor = true; //bialy(true)
+			
+			LiniaF[i].X = 6;
+			LiniaF[i].Y = i+1;
+			if(i%2==0)
+				LiniaF[i].Kolor = true; //bialy
+			else
+				LiniaF[i].Kolor = false; //czarny
+			
+			LiniaG[i].X = 7;
+			LiniaG[i].Y= i + 1;
+			if(i%2==0)
+				LiniaE[i].Kolor = false; //czarny(false)
+			else
+				LiniaE[i].Kolor = true; //bialy(true)
+			
+			LiniaH[i].X = 8;
+			LiniaH[i].Y = i + 1;
+			if(i%2==0)
+				LiniaF[i].Kolor = true; //bialy
+			else
+				LiniaF[i].Kolor = false; //czarny
+		}
+	}
+	
+	public void UmiescFigury()
+	{
+		
+	}
+
+	public static void main(String[] args) 
+	{
+		Pionek[] LiniaX_2 = new Pionek[8];
+		
+	}
+}
